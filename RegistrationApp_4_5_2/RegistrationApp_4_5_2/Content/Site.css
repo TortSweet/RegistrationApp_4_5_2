@@ -1,0 +1,51 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: white;
+}
+
+.register-card {
+    padding: 40px;
+    width: 275px;
+    background-color: whitesmoke;
+    margin: 0 auto 10px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.register-card h1 {
+    font-weight: 100;
+    text-align: center;
+    font-size: 2.3em;
+}
+
+.register-card input {
+    height: 36px;
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: #ffffff;
+    padding: 0 8px;
+    box-sizing: border-box;
+    border: 1px solid #d9d9d9;
+}
+
+.register-card button[type=submit] {
+    width: 100%;
+    display: block;
+}
